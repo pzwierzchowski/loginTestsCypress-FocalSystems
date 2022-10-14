@@ -2,8 +2,6 @@ import LoginUsernameEmailPage from "../page-objects/loginUsernameEmailPage";
 import LoginPasswordPage from "../page-objects/loginPasswordPage";
 import ResetPasswordPage from "../page-objects/resetPasswordPage";
 
-
-
 beforeEach(() => {
   Cypress.on('uncaught:exception', (err, runnable) => {
     return false
