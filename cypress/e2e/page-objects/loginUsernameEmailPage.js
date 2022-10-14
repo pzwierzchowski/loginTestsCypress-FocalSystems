@@ -12,16 +12,15 @@ class LoginUsernameEmailPage{
         Url.visitPage();
     }
     fillUsernameField(){
-        cy.get(usernameEmailField).type(usernameValue)
+        cy.get(usernameEmailField).type(usernameValue);
     }
     fillEmailField(){
-        cy.get(usernameEmailField).type(emailValue)
+        cy.get(usernameEmailField).type(emailValue);
     }
     clickContinueButton(){
-        cy.get(continueButton).click()
+        cy.get(continueButton).click();
     }
     
 }
-
 
 export default LoginUsernameEmailPage;
