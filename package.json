@@ -1,0 +1,24 @@
+{
+  "name": "logintestscypress-focalsystems",
+  "version": "1.0.0",
+  "description": "JS+Cypress tests for login page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pzwierzchowski/loginTestsCypress-FocalSystems.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pzwierzchowski/loginTestsCypress-FocalSystems/issues"
+  },
+  "homepage": "https://github.com/pzwierzchowski/loginTestsCypress-FocalSystems#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^10.10.0"
+  }
+}
